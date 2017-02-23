@@ -49,8 +49,6 @@ public class alphabetList {
 		TextIO.readUserSelectedFile();
 		
 		ArrayList<String> wordList = new ArrayList<String>();
-	
-		TextIO.getln();
 		String word = readNextWord();
      while (word != null) {
         word = word.toLowerCase();  // convert word to lower case
